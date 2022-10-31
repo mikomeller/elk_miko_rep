@@ -1,9 +1,16 @@
+# End of https://www.toptal.com/developers/gitignore/api/terraform
+
+.DS_Store
+
 # Local .terraform directories
 **/.terraform/*
+.terraformrc
+terraform.rc
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+.terraform.lock.hcl
 
 # Crash log files
 crash.log
