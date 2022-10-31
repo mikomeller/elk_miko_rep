@@ -1,11 +1,11 @@
 # my account
-# terraform {
-#   backend "s3" {
-#     bucket = "talent-academy-terraform-tfstates-787786425565"
-#     key    = "projects/group2/logstash_elk_kibana.terraform.tfstates"
-#     dynamodb_table = "terraform-lock"
-#   }
-# }
+terraform {
+  backend "s3" {
+    bucket = "talent-academy-terraform-tfstates-787786425565"
+    key    = "projects/group2/elk_miko_rep.terraform.tfstates"
+    dynamodb_table = "terraform-lock"
+  }
+}
 
 # terraform {
 #   backend "s3" {

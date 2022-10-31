@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "backend_bucket" {
   }
 
   tags = {
-    Name        = "projects/logstash_elk_kibana.terraform.tfstates"
+    Name        = "projects/group2/elk_miko_rep.terraform.tfstates"
     Environment = "Test"
     Team        = "Miko individual"
     Owner       = "Miko"
